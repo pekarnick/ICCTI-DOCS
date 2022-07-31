@@ -36,11 +36,11 @@ Luego de importar configurar la conexión
 
 En mi caso los datos para configurar la conexión son los siguientes
 
-Base de datos: c3_icctidb
+- Base de datos: c3_icctidb
 
-Usuario de la base de datos: c3_iccti
+- Usuario de la base de datos: c3_iccti
 
-Contraseña: ictti2022
+- Contraseña: ictti2022
 
 Copiar el archivo de configuración local:
 
