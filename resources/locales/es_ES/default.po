@@ -1,0 +1,511 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-07-31 12:38-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/Admin/DocumentosController.php:74
+#: ./src/Controller/Admin/DocumentosController.php:98
+msgid "The documento has been saved."
+msgstr "Documento guardado correctamente"
+
+#: ./src/Controller/Admin/DocumentosController.php:78
+#: ./src/Controller/Admin/DocumentosController.php:102
+msgid "The documento could not be saved. Please, try again."
+msgstr "Error al guardar el documento"
+
+#: ./src/Controller/Admin/DocumentosController.php:119
+msgid "The documento has been deleted."
+msgstr "Documento eliminado"
+
+#: ./src/Controller/Admin/DocumentosController.php:121
+msgid "The documento could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/PostulantesController.php:300
+#: ./src/Controller/Admin/PostulantesController.php:323
+msgid "The postulante has been saved."
+msgstr "Registro ingresado correctamente"
+
+#: ./src/Controller/Admin/PostulantesController.php:304
+#: ./src/Controller/Admin/PostulantesController.php:327
+msgid "The postulante could not be saved. Please, try again."
+msgstr "Error al intentar guardar el registro, intentelo de nuevo"
+
+#: ./src/Controller/Admin/PostulantesController.php:343
+msgid "The postulante has been deleted."
+msgstr "Registro eliminado"
+
+#: ./src/Controller/Admin/PostulantesController.php:345
+msgid "The postulante could not be deleted. Please, try again."
+msgstr "No se pudo elimnar el registro, intentelo de nuevo"
+
+#: ./src/Controller/Admin/ProyectosController.php:88
+#: ./src/Controller/Admin/ProyectosController.php:112
+#: ./src/Controller/PostulantesController.php:350
+msgid "The proyecto has been saved."
+msgstr "Proyecto guardado"
+
+#: ./src/Controller/Admin/ProyectosController.php:92
+#: ./src/Controller/Admin/ProyectosController.php:116
+#: ./src/Controller/PostulantesController.php:354
+msgid "The proyecto could not be saved. Please, try again."
+msgstr "Error al intentar guardar el proyecto, intentelo de nuevo"
+
+#: ./src/Controller/Admin/ProyectosController.php:133
+msgid "The proyecto has been deleted."
+msgstr "Proyecto Eliminado"
+
+#: ./src/Controller/Admin/ProyectosController.php:135
+msgid "The proyecto could not be deleted. Please, try again."
+msgstr "No se pudo eliminar el proyecto"
+
+#: ./src/Controller/Admin/TiposController.php:51
+#: ./src/Controller/Admin/TiposController.php:78
+msgid "The tipo has been saved."
+msgstr "Registro guardado"
+
+#: ./src/Controller/Admin/TiposController.php:55
+#: ./src/Controller/Admin/TiposController.php:82
+msgid "The tipo could not be saved. Please, try again."
+msgstr "Error al intentar guardar el registro"
+
+#: ./src/Controller/Admin/TiposController.php:107
+msgid "The tipo has been deleted."
+msgstr "Registro eliminado"
+
+#: ./src/Controller/Admin/TiposController.php:109
+msgid "The tipo could not be deleted. Please, try again."
+msgstr "Error al intentar eliminar el registro"
+
+#: ./src/Controller/Admin/UsersController.php:66
+#: ./src/Controller/Admin/UsersController.php:90
+msgid "The user has been saved."
+msgstr "Usuario agregado correctamente"
+
+#: ./src/Controller/Admin/UsersController.php:70
+#: ./src/Controller/Admin/UsersController.php:94
+msgid "The user could not be saved. Please, try again."
+msgstr "Error al intentar guardar el usuario"
+
+#: ./src/Controller/Admin/UsersController.php:111
+msgid "The user has been deleted."
+msgstr "Usuario eliminado"
+
+#: ./src/Controller/Admin/UsersController.php:113
+msgid "The user could not be deleted. Please, try again."
+msgstr "Error al intentar eliminar el usuario"
+
+#: ./src/Controller/UsersController.php:64
+msgid "Invalid username or password"
+msgstr "CUIT o contraseña incorrecta"
+
+#: ./templates/Admin/Documentos/add.php:11
+#: ./templates/Admin/Documentos/edit.php:11
+#: ./templates/Admin/Documentos/index.php:21
+#: ./templates/Admin/Documentos/view.php:10
+#: ./templates/Admin/Miscelaneas/add.php:11
+#: ./templates/Admin/Miscelaneas/index.php:16
+#: ./templates/Admin/Postulantes/add.php:10
+#: ./templates/Admin/Postulantes/edit.php:10
+#: ./templates/Admin/Postulantes/index.php:20
+#: ./templates/Admin/Postulantes/inicio.php:24
+#: ./templates/Admin/Postulantes/revisar.php:43
+#: ./templates/Admin/Postulantes/view.php:73
+#: ./templates/Admin/Postulantes/view.php:141
+#: ./templates/Admin/Proyectos/add.php:11
+#: ./templates/Admin/Proyectos/edit.php:11
+#: ./templates/Admin/Proyectos/index.php:32
+#: ./templates/Admin/Proyectos/view.php:103
+#: ./templates/Admin/Tipos/add.php:11
+#: ./templates/Admin/Tipos/edit.php:11
+#: ./templates/Admin/Tipos/index.php:17
+#: ./templates/Admin/Users/add.php:11
+#: ./templates/Admin/Users/edit.php:11
+#: ./templates/Admin/Users/index.php:20
+#: ./templates/Admin/Users/view.php:10
+#: ./templates/Postulantes/proyectodetalles.php:103
+msgid "Actions"
+msgstr "Operaciones"
+
+#: ./templates/Admin/Documentos/add.php:12
+#: ./templates/Admin/Documentos/edit.php:17
+#: ./templates/Admin/Documentos/view.php:13
+msgid "List Documentos"
+msgstr "Documentos"
+
+#: ./templates/Admin/Documentos/add.php:19
+msgid "Add Documento"
+msgstr "Nuevo Documento"
+
+#: ./templates/Admin/Documentos/add.php:29
+#: ./templates/Admin/Documentos/edit.php:34
+#: ./templates/Admin/Miscelaneas/add.php:25
+#: ./templates/Admin/Miscelaneas/edit.php:19
+#: ./templates/Admin/Postulantes/add.php:27
+#: ./templates/Admin/Postulantes/devolucion.php:22
+#: ./templates/Admin/Postulantes/edit.php:32
+#: ./templates/Admin/Proyectos/add.php:39
+#: ./templates/Admin/Proyectos/edit.php:44
+#: ./templates/Admin/Tipos/add.php:24
+#: ./templates/Admin/Tipos/edit.php:29
+#: ./templates/Admin/Users/add.php:28
+#: ./templates/Admin/Users/edit.php:33
+msgid "Submit"
+msgstr "Enviar"
+
+#: ./templates/Admin/Documentos/edit.php:13
+#: ./templates/Admin/Documentos/index.php:37
+#: ./templates/Admin/Postulantes/edit.php:12
+#: ./templates/Admin/Proyectos/edit.php:13
+#: ./templates/Admin/Proyectos/index.php:59
+#: ./templates/Admin/Proyectos/view.php:118
+#: ./templates/Admin/Users/edit.php:13
+#: ./templates/Admin/Users/index.php:35
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ./templates/Admin/Documentos/edit.php:15
+#: ./templates/Admin/Documentos/index.php:37
+#: ./templates/Admin/Documentos/view.php:12
+#: ./templates/Admin/Miscelaneas/index.php:26
+#: ./templates/Admin/Postulantes/edit.php:14
+#: ./templates/Admin/Postulantes/index.php:37
+#: ./templates/Admin/Proyectos/edit.php:15
+#: ./templates/Admin/Proyectos/index.php:59
+#: ./templates/Admin/Proyectos/view.php:118
+#: ./templates/Admin/Tipos/edit.php:14
+#: ./templates/Admin/Tipos/index.php:28
+#: ./templates/Admin/Users/edit.php:15
+#: ./templates/Admin/Users/index.php:35
+#: ./templates/Admin/Users/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Esta seguro de eliminar el registro # {0}?"
+
+#: ./templates/Admin/Documentos/edit.php:24
+#: ./templates/Admin/Documentos/view.php:11
+msgid "Edit Documento"
+msgstr "Editar Documento"
+
+#: ./templates/Admin/Documentos/index.php:8
+#: ./templates/Admin/Documentos/view.php:14
+msgid "New Documento"
+msgstr "Nuevo Documento"
+
+#: ./templates/Admin/Documentos/index.php:9
+msgid "Documentos"
+msgstr "Documentos"
+
+#: ./templates/Admin/Documentos/index.php:35
+#: ./templates/Admin/Proyectos/index.php:57
+#: ./templates/Admin/Proyectos/view.php:116
+#: ./templates/Admin/Users/index.php:33
+msgid "View"
+msgstr "Detalles"
+
+#: ./templates/Admin/Documentos/index.php:36
+#: ./templates/Admin/Proyectos/index.php:58
+#: ./templates/Admin/Proyectos/view.php:117
+#: ./templates/Admin/Users/index.php:34
+msgid "Edit"
+msgstr "Editar"
+
+#: ./templates/Admin/Documentos/index.php:46
+#: ./templates/Admin/Miscelaneas/index.php:35
+#: ./templates/Admin/Postulantes/index.php:46
+#: ./templates/Admin/Proyectos/index.php:68
+#: ./templates/Admin/Tipos/index.php:37
+#: ./templates/Admin/Users/index.php:44
+msgid "first"
+msgstr "primera"
+
+#: ./templates/Admin/Documentos/index.php:47
+#: ./templates/Admin/Miscelaneas/index.php:36
+#: ./templates/Admin/Postulantes/index.php:47
+#: ./templates/Admin/Proyectos/index.php:69
+#: ./templates/Admin/Tipos/index.php:38
+#: ./templates/Admin/Users/index.php:45
+msgid "previous"
+msgstr "anterior"
+
+#: ./templates/Admin/Documentos/index.php:49
+#: ./templates/Admin/Miscelaneas/index.php:38
+#: ./templates/Admin/Postulantes/index.php:49
+#: ./templates/Admin/Proyectos/index.php:71
+#: ./templates/Admin/Tipos/index.php:40
+#: ./templates/Admin/Users/index.php:47
+msgid "next"
+msgstr "siguiente"
+
+#: ./templates/Admin/Documentos/index.php:50
+#: ./templates/Admin/Miscelaneas/index.php:39
+#: ./templates/Admin/Postulantes/index.php:50
+#: ./templates/Admin/Proyectos/index.php:72
+#: ./templates/Admin/Tipos/index.php:41
+#: ./templates/Admin/Users/index.php:48
+msgid "last"
+msgstr "ultima"
+
+#: ./templates/Admin/Documentos/index.php:52
+#: ./templates/Admin/Miscelaneas/index.php:41
+#: ./templates/Admin/Postulantes/index.php:52
+#: ./templates/Admin/Proyectos/index.php:74
+#: ./templates/Admin/Tipos/index.php:43
+#: ./templates/Admin/Users/index.php:50
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Página {{page}} de {{pages}}, mostrando {{current}} registros de {{count}} en total"
+
+#: ./templates/Admin/Documentos/view.php:12
+msgid "Delete Documento"
+msgstr "Eliminar Documento"
+
+#: ./templates/Admin/Documentos/view.php:22
+#: ./templates/Admin/Users/view.php:22
+msgid "Postulante"
+msgstr "Postulante"
+
+#: ./templates/Admin/Documentos/view.php:26
+#: ./templates/Admin/Postulantes/revisar.php:37
+#: ./templates/Admin/Postulantes/revisar.php:122
+#: ./templates/Admin/Postulantes/view.php:36
+#: ./templates/Admin/Postulantes/view.php:135
+#: ./templates/Admin/Proyectos/view.php:97
+#: ./templates/Postulantes/proyectodetalles.php:97
+msgid "Nombre"
+msgstr ""
+
+#: ./templates/Admin/Documentos/view.php:30
+#: ./templates/Admin/Postulantes/view.php:137
+#: ./templates/Admin/Proyectos/view.php:99
+#: ./templates/Postulantes/proyectodetalles.php:99
+msgid "Observaciones"
+msgstr ""
+
+#: ./templates/Admin/Documentos/view.php:34
+#: ./templates/Admin/Postulantes/view.php:140
+#: ./templates/Admin/Proyectos/view.php:102
+#: ./templates/Postulantes/proyectodetalles.php:102
+msgid "Estado"
+msgstr ""
+
+#: ./templates/Admin/Documentos/view.php:38
+#: ./templates/Admin/Postulantes/revisar.php:146
+#: ./templates/Admin/Postulantes/view.php:133
+#: ./templates/Admin/Proyectos/view.php:95
+#: ./templates/Admin/Users/view.php:34
+#: ./templates/Postulantes/proyectodetalles.php:95
+msgid "Id"
+msgstr ""
+
+#: ./templates/Admin/Documentos/view.php:42
+#: ./templates/Admin/Postulantes/revisar.php:154
+#: ./templates/Admin/Postulantes/view.php:52
+#: ./templates/Admin/Postulantes/view.php:138
+#: ./templates/Admin/Proyectos/view.php:100
+#: ./templates/Admin/Users/view.php:38
+#: ./templates/Postulantes/proyectodetalles.php:100
+msgid "Created"
+msgstr "Creado"
+
+#: ./templates/Admin/Documentos/view.php:46
+#: ./templates/Admin/Postulantes/revisar.php:158
+#: ./templates/Admin/Postulantes/view.php:56
+#: ./templates/Admin/Postulantes/view.php:139
+#: ./templates/Admin/Proyectos/view.php:101
+#: ./templates/Admin/Users/view.php:42
+#: ./templates/Postulantes/proyectodetalles.php:101
+msgid "Modified"
+msgstr "Modificado"
+
+#: ./templates/Admin/Documentos/view.php:51
+#: ./templates/Admin/Postulantes/revisar.php:38
+#: ./templates/Admin/Postulantes/view.php:136
+#: ./templates/Admin/Proyectos/view.php:98
+#: ./templates/Postulantes/proyectodetalles.php:98
+msgid "Detalles"
+msgstr ""
+
+#: ./templates/Admin/Documentos/view.php:57
+msgid "File"
+msgstr "Archivo"
+
+#: ./templates/Admin/Miscelaneas/edit.php:13
+#: ./templates/Admin/Tipos/edit.php:23
+msgid "Edit Tipo"
+msgstr "Editar Tipo"
+
+#: ./templates/Admin/Miscelaneas/index.php:9
+#: ./templates/Admin/Tipos/index.php:9
+msgid "Tipos"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/add.php:11
+#: ./templates/Admin/Postulantes/edit.php:16
+msgid "List Postulantes"
+msgstr "Postulantes"
+
+#: ./templates/Admin/Postulantes/add.php:18
+msgid "Add Postulante"
+msgstr "Nuevo Postulante"
+
+#: ./templates/Admin/Postulantes/edit.php:23
+msgid "Edit Postulante"
+msgstr "Editar Postulante"
+
+#: ./templates/Admin/Postulantes/index.php:2
+msgid "New Postulante"
+msgstr "Nuevo Postulante"
+
+#: ./templates/Admin/Postulantes/index.php:3
+msgid "Postulantes"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:39
+msgid "Archivo"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:40
+msgid "Tipo de archivo"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:41
+msgid "Devoluciones"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:42
+msgid "Ultima modificación"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:114
+#: ./templates/Admin/Postulantes/view.php:32
+msgid "Cuit"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:118
+msgid "Razon social"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:126
+#: ./templates/Admin/Postulantes/view.php:40
+msgid "Apellido"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:130
+#: ./templates/Admin/Postulantes/view.php:44
+msgid "Telefono"
+msgstr "Teléfono"
+
+#: ./templates/Admin/Postulantes/revisar.php:134
+#: ./templates/Admin/Postulantes/view.php:48
+#: ./templates/Admin/Users/view.php:26
+msgid "Email"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:138
+msgid "Localidad"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:142
+msgid "Provincia"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:150
+msgid "Dni"
+msgstr ""
+
+#: ./templates/Admin/Postulantes/revisar.php:163
+msgid "Direccion"
+msgstr "Dirección"
+
+#: ./templates/Admin/Postulantes/view.php:134
+msgid "Proyecto"
+msgstr ""
+
+#: ./templates/Admin/Proyectos/add.php:12
+#: ./templates/Admin/Proyectos/edit.php:17
+msgid "List Proyectos"
+msgstr "Proyectos"
+
+#: ./templates/Admin/Proyectos/add.php:19
+msgid "Add Proyecto"
+msgstr "Nuevo Proyecto"
+
+#: ./templates/Admin/Proyectos/edit.php:24
+msgid "Edit Proyecto"
+msgstr "Editar Proyecto"
+
+#: ./templates/Admin/Proyectos/index.php:8
+msgid "New Proyecto"
+msgstr "Nuevo Proyecto"
+
+#: ./templates/Admin/Proyectos/index.php:9
+msgid "Proyectos"
+msgstr ""
+
+#: ./templates/Admin/Proyectos/view.php:96
+#: ./templates/Postulantes/proyectodetalles.php:96
+msgid "Postulante Id"
+msgstr ""
+
+#: ./templates/Admin/Tipos/add.php:19
+msgid "Add Tipo"
+msgstr "Nuevo Tipo"
+
+#: ./templates/Admin/Users/add.php:12
+#: ./templates/Admin/Users/edit.php:17
+#: ./templates/Admin/Users/view.php:13
+msgid "List Users"
+msgstr "Usuarios"
+
+#: ./templates/Admin/Users/add.php:19
+msgid "Add User"
+msgstr "Nuevo Usuario"
+
+#: ./templates/Admin/Users/edit.php:24
+#: ./templates/Admin/Users/view.php:11
+msgid "Edit User"
+msgstr "Editar Usuario"
+
+#: ./templates/Admin/Users/index.php:8
+#: ./templates/Admin/Users/view.php:14
+msgid "New User"
+msgstr "Nuevo Usuario"
+
+#: ./templates/Admin/Users/index.php:9
+msgid "Users"
+msgstr "Usuarios"
+
+#: ./templates/Admin/Users/view.php:12
+msgid "Delete User"
+msgstr "Eliminar Usuarios"
+
+#: ./templates/Admin/Users/view.php:30
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: ./templates/Postulantes/registro.php:24
+msgid "Enviar"
+msgstr ""
+
+#: ./templates/Postulantes/usuario.php:135
+msgid "Esta seguro de borrar el documento: {0}?"
+msgstr ""
+
+#: ./templates/Users/login.php:10
+msgid "Login"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr "Volver"
+
