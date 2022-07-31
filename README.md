@@ -1,6 +1,6 @@
 ![](https://iccti.chaco.gob.ar/wp-content/uploads/2022/01/logoh.png)
 
-### Requerimientos
+# Requerimientos
 
 HTTP Server. Por ejemplo: Apache. mod_rewrite es aconsejable que este habilitado, pero no es obligatorio. Puede usar nginx, o Microsoft IIS si lo prefiere.
 
@@ -83,7 +83,7 @@ Vamos a dar permisos de escritura a ciertos directorios:
 
 `$ chmod -Rv 777 webroot/files/`
 
-#Configurar rutas y correos
+# Configurar rutas y correos
 Ahora tenemos que configurar las direcciones de correo y nombre del servidor
 
 1. Vamos a:
@@ -123,7 +123,7 @@ https://susitioweb.com/iccti/users
 
 Busca su usuario y presiona el boton "Editar"
 
-#Conclusión
+# Conclusión
 Los usuarios acceden desde el mismo login, pruebe crear un usuario y comience a adjuntar documentos y vea como van apareciendo cuando inicia sesion con el administrador.
 
 Puede editar los usuarios desde https://susitioweb.com/iccti/users como asi tambien puede cambiar el rol o crear nuevos administradores, el postulante 1 es necesario para los administradores, no lo borre.
