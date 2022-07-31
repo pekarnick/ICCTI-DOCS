@@ -240,7 +240,7 @@ return [
             'host' => 'smtp-relay.sendinblue.com',
             'port' => 587,
             'username' => 'icctitest@gmail.com',
-            'password' => '9OdQ4VHghzKELNm1',
+            'password' => 'password',
             'className' => 'Smtp',
 //            'tls' => true
         ],
