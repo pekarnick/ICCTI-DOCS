@@ -37,14 +37,19 @@ Luego de importar configurar la conexión
 En mi caso los datos para configurar la conexión son los siguientes
 
 Base de datos: c3_icctidb
+
 Usuario de la base de datos: c3_iccti
+
 Contraseña: ictti2022
 
 Copiar el archivo de configuración local:
 
 `$ cp config/app_local.example.php config/app_local.php`
+
 Editar el archivo y escribir los datos de nuestra conexión
+
 `$ nano config/app_local.php`
+
 
 Modificar:
   * 
