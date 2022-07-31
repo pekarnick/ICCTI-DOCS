@@ -24,7 +24,7 @@ Ahora utilizaremos el la utilidad composer para actualizar las dependencias
 
 `$ composer update`
 
-#Instalar la base de datos
+# Instalar la base de datos
 
 La base de datos, segun nuestro ejemplo, se encuentra en:
 
