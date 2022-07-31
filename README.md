@@ -119,11 +119,11 @@ Contraseña: admin
 
 Puede cambiar la contraseña desde:
 
-https://susitioweb.com/iccti/users
+https://susitioweb.com/iccti/admin/users
 
 Busca su usuario y presiona el boton "Editar"
 
 # Conclusión
 Los usuarios acceden desde el mismo login, pruebe crear un usuario y comience a adjuntar documentos y vea como van apareciendo cuando inicia sesion con el administrador.
 
-Puede editar los usuarios desde https://susitioweb.com/iccti/users como asi tambien puede cambiar el rol o crear nuevos administradores, el postulante 1 es necesario para los administradores, no lo borre.
+Puede editar los usuarios desde https://susitioweb.com/iccti/admin/users como asi tambien puede cambiar el rol o crear nuevos administradores, el postulante 1 es necesario para los administradores, no lo borre.
