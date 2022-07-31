@@ -53,20 +53,20 @@ Editar el archivo y escribir los datos de nuestra conexión
 
 Modificar:
 
-            - 'username' => 'dbuser',
+             'username' => 'dbuser',
             
-            - 'password' => 'dbpassword',
+             'password' => 'dbpassword',
             
-            - 'database' => 'dbname',
+             'database' => 'dbname',
             
  
 Debe quedar:
 
-            - 'username' => 'c3_iccti',
+             'username' => 'c3_iccti',
             
-            - 'password' => 'ictti2022',
+             'password' => 'ictti2022',
             
-            - 'database' => 'c3_icctidb',
+             'database' => 'c3_icctidb',
             
  
 Y ya que estamos en este archivo tambien modificar el servidor smtp para enviar los correos de las confirmaciones, en nuestro caso usamos sendinblue
