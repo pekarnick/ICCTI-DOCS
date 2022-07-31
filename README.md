@@ -91,7 +91,7 @@ Ahora tenemos que configurar las direcciones de correo y nombre del servidor
 Cambiar el valor de los atributos "mail" "mailadmin" y "servidor" por los suyos:
     
 
-    //Setear los correos y nombres de host para el mensaje
+        //Setear los correos y nombres de host para el mensaje
         public $mail = "icctitest@gmail.com";
         public $mailadmin = "financiamientoiccti@gmail.com";
         public $servidor = "https://iccti.chaco.gob.ar/regs/fontech";
